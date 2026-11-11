@@ -1,0 +1,1 @@
+const fs=require('node:fs');for(const name of ['server.js','schema.sql','public/index.html'])if(!fs.existsSync(name))throw new Error('Arquivo ausente: '+name);console.log('Pacote pronto para iniciar.');
