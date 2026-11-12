@@ -1,10 +1,3 @@
--- Central de Matrículas Recife — banco MySQL separado
--- Compatível com Recife_Matriculas_Hostinger.zip.
--- Selecione o banco criado na Hostinger e importe este arquivo.
--- Cria a estrutura para matrículas, RA, consultores, fotos e comprovantes.
--- Não inclui dados de alunos nem anexos da hospedagem anterior.
--- Os consultores iniciais são preparados pelo aplicativo ao conectar ao banco.
-
 -- MySQL 8 / MariaDB. Use the existing database created in hPanel; no CREATE DATABASE permission needed.
 CREATE TABLE IF NOT EXISTS cm_settings (
  setting_key VARCHAR(80) PRIMARY KEY,
